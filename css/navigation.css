@@ -1,0 +1,74 @@
+.site-navigation {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #fff;
+    font-family: Oswald, sans-serif;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+.site-navigation a {
+    position: relative;
+    padding: 16px 0;
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.site-navigation a:hover {
+    color: #cc866c;
+    text-decoration: underline;
+}
+
+.site-navigation .navbar-nav {
+    position: relative;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    width: 100%;
+}
+
+.site-navigation .site-nav-btn {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 30px;
+    color: #fff;
+    white-space: nowrap;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #cc866c;
+    border-radius: 30px;
+    box-shadow: 2.5px 4.33px 15px 0 rgba(0, 0, 0, 0.15);
+}
+
+.site-navigation .site-nav-btn:hover {
+    color: #000;
+    text-decoration: none !important;
+    background-color: #fff;
+}
+
+.site-navigation .navbar-toggler-icon {
+    filter: grayscale(1) invert(1) brightness(1.2);
+}
+
+.site-navigation .site-logo img {
+    max-width: 190px;
+}
+
+/* Mobile Menu */
+@media screen and (max-width: 992px) {
+
+    .site-navigation .navbar-nav {
+        gap: 15px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .site-navigation a {
+        padding: 10px 0;
+    }
+
+}

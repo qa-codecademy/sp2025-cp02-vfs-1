@@ -1,74 +1,40 @@
-.site-navigation {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    color: #fff;
-    font-family: Oswald, sans-serif;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
-}
-
-.site-navigation a {
-    position: relative;
-    padding: 16px 0;
-    color: #fff;
-    font-weight: 400;
-    font-size: 16px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-}
-
-.site-navigation a:hover {
-    color: #cc866c;
-    text-decoration: underline;
-}
-
-.site-navigation .navbar-nav {
-    position: relative;
+.site-header {
+    background-color: #f7f7f7;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
     display: flex;
-    gap: 40px;
-    justify-content: center;
-    width: 100%;
-}
-
-.site-navigation .site-nav-btn {
-    display: flex;
-    gap: 5px;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
-    padding: 20px 30px;
-    color: #fff;
-    white-space: nowrap;
-    text-transform: uppercase;
-    text-decoration: none;
-    background-color: #cc866c;
-    border-radius: 30px;
-    box-shadow: 2.5px 4.33px 15px 0 rgba(0, 0, 0, 0.15);
 }
 
-.site-navigation .site-nav-btn:hover {
-    color: #000;
-    text-decoration: none !important;
-    background-color: #fff;
+.site-header a {
+color: #000000;
+text-decoration: none;
+font-size: 20px;
 }
 
-.site-navigation .navbar-toggler-icon {
-    filter: grayscale(1) invert(1) brightness(1.2);
+.site-header-nav {
+    
 }
 
-.site-navigation .site-logo img {
-    max-width: 190px;
+.site-nav-modal .modal-header {
+    border-bottom: none;
 }
 
-/* Mobile Menu */
-@media screen and (max-width: 992px) {
+.site-nav-modal .nav-link {
+color: #000000;
+text-decoration: none;
+font-size: 62px;    
+line-height: 1.2;
+font-style: italic;
+display: block;
+border-bottom: solid 1px #000000;
+font-family: 'Playfair Display, serif';
+font-weight: 300;
+}
 
-    .site-navigation .navbar-nav {
-        gap: 15px;
-        margin-top: 50px;
-        margin-bottom: 50px;
-    }
-
-    .site-navigation a {
-        padding: 10px 0;
-    }
-
+.site-nav-modal .modal-dialog {
+background-color: #ffffff;
 }

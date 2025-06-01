@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hair Products</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="hairContainer">
+      <div class="left">
+        <h1>Hair Products</h1>
+        <div class="products">
+          <div class="category" onclick="toggleList('shampooList', this)">
+            <span class="arrow">&#9654;</span> Shampoos
+          </div>
+          <ul id="shampooList">
+            <li>For Volume</li>
+            <li>For Dry Hair</li>
+            <li>For Oily Hair</li>
+            <li>Anti-Dandruff</li>
+            <li>Color-Protect</li>
+          </ul>
+        </div>
+        <div class="products">
+          <div class="category" onclick="toggleList('conditionerList', this)">
+            <span class="arrow">&#9654;</span> Conditioners
+          </div>
+          <ul id="conditionerList">
+            <li>For Smooth Hair</li>
+            <li>For Frizz Control</li>
+            <li>Leave-In</li>
+            <li>Deep Conditioning</li>
+          </ul>
+        </div>
+        <div class="products">
+          <div class="category" onclick="toggleList('stylingList', this)">
+            <span class="arrow">&#9654;</span> Styling
+          </div>
+          <ul id="stylingList">
+            <li>Hair Gels</li>
+            <li>Hair Mousse</li>
+            <li>Hair Sprays</li>
+            <li>Creams & Serums</li>
+          </ul>
+        </div>
+        <div class="products">
+          <div class="category" onclick="toggleList('treatmentList', this)">
+            <span class="arrow">&#9654;</span> Treatments
+          </div>
+          <ul id="treatmentList">
+            <li>Protein Treatment</li>
+            <li>Scalp Treatment</li>
+            <li>Heat Repair</li>
+          </ul>
+        </div>
+      </div>
+      <div class="right">
+        <img
+          src="./images/nova.jpg"
+          alt="Hair Products"
+          class="pop-image hidden"
+        />
+      </div>
+    </div>
+  </body>
+</html>

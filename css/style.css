@@ -1,23 +1,5 @@
 /* Navbar */
-.navbar {
-  font-family: "Georgia", serif;
-  font-style: italic;
-  font-size: 16px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-}
 
-.navbar-brand {
-  font-weight: bold;
-}
-
-.navbar a {
-  color: #000;
-  font-style: normal;
-}
-
-.navbar a:hover {
-  text-decoration: underline;
-}
 
 .btn-outline-dark {
   border-radius: 0;

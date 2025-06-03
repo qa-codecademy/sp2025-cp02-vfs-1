@@ -1,40 +1,44 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
 .site-header {
-    background-color: #f7f7f7;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 30px;
-    padding-right: 30px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  background-color: #f7f7f7;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Open Sans", sans-serif;
 }
 
 .site-header a {
-color: #000000;
-text-decoration: none;
-font-size: 20px;
+  color: #000000;
+  text-decoration: none;
+  font-size: 20px;
 }
 
 .site-header-nav {
-    
 }
 
 .site-nav-modal .modal-header {
-    border-bottom: none;
+  border-bottom: none;
 }
 
 .site-nav-modal .nav-link {
-color: #000000;
-text-decoration: none;
-font-size: 62px;    
-line-height: 1.2;
-font-style: italic;
-display: block;
-border-bottom: solid 1px #000000;
-font-family: 'Playfair Display, serif';
-font-weight: 300;
+  color: #000000;
+  text-decoration: none;
+  font-size: 62px;
+  line-height: 1.2;
+  font-style: italic;
+  display: block;
+  border-bottom: solid 1px #000000;
+  font-family: "Playfair Display, serif";
+  font-weight: 300;
 }
 
 .site-nav-modal .modal-dialog {
-background-color: #ffffff;
+  background-color: #ffffff;
 }

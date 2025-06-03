@@ -1,0 +1,101 @@
+/* Navbar */
+.navbar {
+  font-family: "Georgia", serif;
+  font-style: italic;
+  font-size: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.navbar a {
+  color: #000;
+  font-style: normal;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.btn-outline-dark {
+  border-radius: 0;
+}
+
+.btn-outline-dark:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+/* Main content */
+.about-heading {
+  font-style: italic;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.hero-text {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.4;
+  max-width: 900px;
+}
+
+.section-title {
+  font-style: italic;
+  font-weight: bold;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #111;
+}
+
+/* Image styling */
+.custom-img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 0;
+  transition: transform 0.3s ease, filter 0.3s ease;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+.custom-img:hover {
+  transform: scale(1.02);
+  filter: brightness(0.95);
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Bottom text hover */
+.section-title:hover {
+  text-decoration: underline;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .hero-text {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .custom-img {
+    max-height: 250px;
+  }
+}

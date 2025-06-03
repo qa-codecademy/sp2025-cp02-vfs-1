@@ -4,6 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>L. Patel Hair Salon</title>
+    <!-- Custom Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Bootstrap CSS -->
     <link
@@ -16,27 +23,66 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+    <link href="../css/navigation.css" rel="stylesheet" />
     <script src="script.js" defer></script>
   </head>
 
   <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-light py-2 px-4">
-      <div class="container-fluid justify-content-between">
-        <span class="navbar-brand nav-logo fw-semibold fst-italic"
-          >L. Patel</span
+    <header class="site-header">
+      <a href="index.html"><img src="../img/logo/logo.png" height="60" alt="" /></a>
+      <div class="site-header-nav">
+        <a
+          href="#"
+          class="menu-trigger"
+          data-bs-toggle="modal"
+          data-bs-target="#menuModal"
         >
-        <div class="d-flex align-items-center">
-          <a href="#" class="me-3 text-decoration-none">
-            <i class="bi bi-person"></i> Log In
-          </a>
-          <a href="#" class="me-3 text-decoration-none">
-            <i class="bi bi-bag"></i>
-          </a>
-          <button class="btn btn-outline-dark">Menu</button>
+          <span class="d-none d-md-block">Menu</span>
+          <svg
+            class="d-block d-md-none"
+            width="30"
+            height="24"
+            viewBox="0 0 30 24"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="currentColor"
+          >
+            <rect y="2" width="30" height="2" rx="2" />
+            <rect y="10" width="30" height="2" rx="2" />
+            <rect y="18" width="30" height="2" rx="2" />
+          </svg>
+        </a>
+      </div>
+    </header>
+    <!-- Fullscreen Modal navigation -->
+    <div
+      class="modal fade site-nav-modal"
+      id="menuModal"
+      tabindex="-1"
+      aria-labelledby="menuModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content container">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body text-center">
+            <nav class="nav flex-column">
+              <a class="nav-link" href="index.html">Home</a>
+              <a class="nav-link" href="mission.html">About</a>
+              <a class="nav-link" href="products.html">Products</a>
+              <a class="nav-link" href="galleryPage.html">Gallery</a>
+              <a class="nav-link" href="Vale-friz-Contact-page.html">Contact</a>
+            </nav>
+          </div>
         </div>
       </div>
-    </nav>
+    </div>
 
     <!-- Main Content -->
     <div class="container px-4 px-md-5 mt-5">
